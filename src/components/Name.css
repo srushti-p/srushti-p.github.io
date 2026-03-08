@@ -1,0 +1,61 @@
+.name-title {
+    color: rgb(237, 237, 237);
+    font-size: min(4.5rem, 8vw);
+    font-weight: 500;
+    letter-spacing: -0.08em;
+    word-spacing: 0.1em;
+    margin: 0;
+    flex-shrink: 1;
+}
+
+.resume-button {
+    color: rgb(226, 226, 226);
+    background-color: rgb(31, 31, 31);
+    font-size: 1.2rem;
+    font-weight: 150;
+    border-radius: 50px;
+    border: solid rgb(0, 0, 0);
+    border-width: thin;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 2vh;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 3vh;
+}
+
+.social-media {
+    height: 24px;
+    width: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-media:hover {
+    transform: scale(1.2);
+}
+
+.resume-button:hover {
+    color: rgb(159, 159, 159);
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(45, 45, 45);
+    border-width: thin;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.personal-description {
+    color: rgb(159, 159, 159);
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    font-weight: 350;
+    width: min(90%, 50ch);
+    letter-spacing: -0.03em;
+    word-spacing: 0.05em;
+}

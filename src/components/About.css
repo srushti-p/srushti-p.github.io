@@ -1,0 +1,23 @@
+.about-header {
+    color: rgb(237, 237, 237);
+    font-size: clamp(1rem, 3.5vw, 1.8rem);
+    font-weight: 400;
+    letter-spacing: -0.08em;
+    word-spacing: 0.1em;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.description-one,
+.description-two,
+.description-three {
+    color: rgb(159, 159, 159);
+    font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+    font-weight: 400;
+    width: min(100%, 100ch);
+    letter-spacing: -0.03em;
+    word-spacing: 0.05em;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+
+}
