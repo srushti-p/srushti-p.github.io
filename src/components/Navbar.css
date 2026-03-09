@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 7vh;
+    justify-content: space-between;
+}
+
+.name-logo {
+    color: rgb(237, 237, 237);
+    background: none;
+    border: none;
+    width: 7vh;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.08em;
+    word-spacing: 0.1em;
+    text-align: center;
+    margin-right: 1vw;
+
+}
+
+/* .name-logo:hover {
+    color: rgb(226, 226, 226);
+    background-color: rgb(31, 31, 31);
+    transition: 0.2s;
+    /* cursor: pointer; */
+/* } */
+
+.navbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.about-button,
+.projects-button,
+.experience-button {
+    color: rgb(159, 159, 159);
+    background: none;
+    font-size: 0.9rem;
+    font-weight: 150;
+    margin-left: 2vh;
+    border-radius: 50px;
+    border: solid rgb(45, 45, 45);
+    border-width: thin;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-button:hover,
+.projects-button:hover,
+.experience-button:hover {
+    color: rgb(226, 226, 226);
+    background-color: rgb(31, 31, 31);
+    transition: 0.2s;
+    cursor: pointer;
+}

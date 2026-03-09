@@ -1,0 +1,84 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 2vh;
+    flex: 1;
+
+}
+
+.project-card:hover {
+    background-color: rgb(12, 12, 14);
+
+}
+
+.project-card h3 {
+    color: rgb(237, 237, 237);
+    font-size: min(1.3rem, 8vw);
+    font-weight: 350;
+    margin: 0;
+    padding-top: 0.5vh;
+}
+
+.project-card p {
+    margin: 0.75rem 0 1rem 0;
+    color: rgb(161, 161, 170);
+    font-size: min(1.05rem, 8vw);
+    font-weight: 200;
+    letter-spacing: -0.02em;
+    padding-bottom: 0.7vh;
+}
+
+.tags {
+    margin-bottom: 1rem;
+}
+
+.tags span {
+    display: inline-block;
+    background-color: #333;
+    color: rgb(197, 197, 200);
+    font-weight: 300;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: auto;
+}
+
+.actions .btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #504b4b;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.actions .btn:hover {
+    background-color: #555;
+}
+
+.black-github-logo {
+    height: 1em;
+    width: auto;
+    margin-right: 0.4em;
+}
